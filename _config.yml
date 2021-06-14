@@ -1,0 +1,252 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Karahan Şahin
+title: Senior Linguistics Student
+email: karahan.sahin@boun.edu.tr
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  karahan-sahin
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+linkedin_username: karahansahin
+# xing_username: jekyll
+# pinterest_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile_pic.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Karahan and I'm a Senior Linguistics student at Bogazici University I have been learning programming for the last 2 years. In this period time, I have taken several programming classes and develop a number of projects.
+
+  I want to be a NLP engineer and get a masters degree on Computer Science. Therefore I have been taken advanced classes and working voluntarily at Bogazici University TabiLab which has specialized on Natural Language Processing.
+
+  I am experienced in programming languages: 
+  - <mark>Python</mark> 
+  - <mark>Javascript</mark> 
+  - <mark>Kotlin</mark> 
+  - <mark>C++</mark> 
+
+  I have worked with several libraries:
+  - <mark>NLTK</mark> 
+  - <mark>Numpy</mark> 
+  - <mark>Pandas</mark> 
+  - <mark>Matplotlib/Seaborn</mark> 
+  - <mark>Sklearn</mark> 
+  - <mark>spaCy</mark> and so on 
+
+content:
+  
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Bogazici University
+        caption: 2016 - Present
+        sub_title: BA Linguistics
+        description: | # this will include new lines to allow paragraphs
+          Although I have been in a social science programme, I have tried to take class that includes mathematics. I have been taking fundamental programming courses as well as Machine learning and Natural Language Processing based courses.
+          
+          Computer science courses including:
+            - CMPE150 - INTRODUCTION TO COMPUTING
+            - CMPE220 - PRINCIPLES OF OOP
+            - CMPE352 - FUNDAMENTALS OF SOFTWARE ENGINEERING (AUDIT)
+            - CMPE462 - MACHINE LEARNING (AUDIT)
+            - CMPE493 - INFORMATION RETRIEVAL SYSTEMS
+            - MIS584  - APPLIED MACHINE LEARNING
+            - MIS49M  - MOBILE APPLICATION DEVELOPMENT
+            - MIS49A  - INTRODUCTION TO WEB DESIGN
+
+
+          Current GPA: <mark>3.24</mark>
+
+
+      - layout: left
+        title: Kocaeli Anatolia High School
+        caption: 2012 - 2016
+        description: | # this will include new lines to allow paragraphs
+
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content: 
+      - layout: left
+        title: Bogazici University TabiLab
+        link: https://tabilab.cmpe.boun.edu.tr/
+        # link_text: boringcompany.com
+        sub_title: Lab Assistant (Voluntary)
+        caption: January 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            I have started working in this laboratory as linguistic annotator of tranining and test datasets for dependency parser models.
+
+            In the process, I have been started develop <mark>regex</mark> based processing modules for large scale linguistic annotations and dependencies. Thereby, I have been recently reassigned to the software development team for the deployment of the ongoing platform for NLP researchers in Turkey.
+
+            My works in this include:
+
+            - Linguistic Annotation
+            - Contact with Universal Dependencies Authorities
+            - Text Processing
+            - Requirements design
+
+
+      - layout: left
+        title: Clinicwise
+        link: clinic-wise.com
+        # link_text: boringcompany.com
+        sub_title: Junior Digital Marketing Specialist 
+        caption: July 2020 - August 2020
+        description: | # this will include new lines to allow paragraphs
+            I was responsible SEO and WordPress website design
+
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+      - layout: top-middle
+        title: Information Retrieval Term Project
+        link: github.com/karahan-sahin/
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-themeCMPE493-Term-Project
+            icon: fab fa-github
+            url: github.com/karahan-sahin/CMPE493-Term-Project
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+            This repository includes search engine project for COVID-19 literature which utilizes algorithms like BM25, k-means clustering, vector refactoring
+
+      - layout: top-middle
+        title: Text Processing Projects
+        link: github.com/karahan-sahin/information-retrival-projects
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/karahan-sahin/information-retrival-projects
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+            There 4 different projects varying levensthein distance calculator to hand-written Naive Bayes classifier with feature selection algorithms implemented    
+
+      - layout: top-middle
+        title: TabiLab Modules
+        link: github.com/karahan-sahin/annotation-utilities
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/karahan-sahin/annotation-utilities
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+              There are different modules for immediate feature changes, copula splitting or punctuation parsing which are both linguistically and dataset-wise improving.
+ 
+  - title: Languages # Title for the section
+    layout: list # Type of content section (list/text)
+    content: 
+      - layout: left
+        title: English
+        # link_text: boringcompany.com
+        link: Advanced
+        description: | # this will include new lines to allow paragraphs
+          * Speaking: <mark>Advanced</mark> 
+          * Reading: <mark>Advanced</mark> 
+          * Writing: <mark>Advanced</mark> 
+
+      - layout: left
+        title: Turkish Sing Language
+        # link_text: boringcompany.com
+        link: Advanced
+        description: | # this will include new lines to allow paragraphs
+          * Speaking: <mark>Advanced</mark> 
+
+      - layout: left
+        title: German
+        # link_text: boringcompany.com
+        link: Beginner
+        description: | # this will include new lines to allow paragraphs
+          * Speaking: <mark>Beginner</mark> 
+          * Reading: <mark>Beginner</mark> 
+          * Writing: <mark>Beginner</mark> 
+
+      - layout: left
+        title: Spanish
+        # link_text: boringcompany.com
+        link: Beginner
+        description: | # this will include new lines to allow paragraphs
+          * Speaking: <mark>Beginner</mark> 
+          * Reading: <mark>Beginner</mark> 
+          * Writing: <mark>Beginner</mark> 
+
+  - title: Extracirricular # Title for the section
+    layout: list # Type of content section (list/text)
+    content: 
+
+      - layout: left
+        title: Bogazici University IT CLUB
+        # link_text: boringcompany.com
+        sub_title: Member
+        caption: September 2019 - Present
+        link: https://compec.org/
+        description: | # this will include new lines to allow paragraphs
+            Attending programming courses and bootcamps
+
+      - layout: left
+        title: Bogazici University Jazz Choir
+        # link_text: boringcompany.com
+        sub_title: Tenor
+        caption: January 2020 - August 2021
+        link: https://www.instagram.com/bumkcazkorosu/
+        description: | # this will include new lines to allow paragraphs
+            Tenor II singer in various jazz songs
+
+      - layout: left
+        title: Dem Dernek
+        # link_text: boringcompany.com
+        link: Sign Language Interpreter
+        caption: November 2018 - August 2019
+        link: 
+        description: | # this will include new lines to allow paragraphs
+            Turkish - Turkish Sign Language interpretation for Sign Language Language awareness events
+        
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
