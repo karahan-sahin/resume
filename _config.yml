@@ -85,6 +85,7 @@ content:
           Current GPA: <mark>3.24</mark>
 
 
+
       - layout: left
         title: Kocaeli Anatolia High School
         caption: 2012 - 2016
@@ -230,7 +231,6 @@ content:
 
       - layout: left
         title: Dem Dernek
-        # link_text: boringcompany.com
         link: Sign Language Interpreter
         caption: November 2018 - August 2019
         link: 
