@@ -183,7 +183,7 @@ content:
           * Writing: <mark>Advanced</mark> 
 
       - layout: left
-        title: Turkish Sing Language
+        title: Turkish Sign Language
         # link_text: boringcompany.com
         link: Advanced
         description: | # this will include new lines to allow paragraphs
@@ -207,7 +207,7 @@ content:
           * Reading: <mark>Beginner</mark> 
           * Writing: <mark>Beginner</mark> 
 
-  - title: Extracirricular # Title for the section
+  - title: Extracurricular # Title for the section
     layout: list # Type of content section (list/text)
     content: 
 
