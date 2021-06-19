@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   - <mark>C++</mark> 
 
   I have worked with several libraries:
-  - <mark>NLTK</mark> 
+  - <mark>nltk</mark> 
   - <mark>Numpy</mark> 
   - <mark>Pandas</mark> 
   - <mark>Matplotlib/Seaborn</mark> 
@@ -169,6 +169,21 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
               There are different modules for immediate feature changes, copula splitting or punctuation parsing which are both linguistically and dataset-wise improving.
+  
+
+      - layout: top-middle
+        title: Course Planner Mobile App
+        link: github.com/karahan-sahin/CoursePlannerApp
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/karahan-sahin/CoursePlannerApp
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+              This is an Android application for Boğaziçi University student written in Kotlin including a web crawler written in Python and Firebase database
  
   - title: Languages # Title for the section
     layout: list # Type of content section (list/text)
