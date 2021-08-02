@@ -82,7 +82,7 @@ content:
             - MIS49A  - INTRODUCTION TO WEB DESIGN
 
 
-          Current GPA: <mark>3.24</mark>
+          Current GPA: <mark>3.31</mark>
 
 
 
@@ -96,10 +96,25 @@ content:
     layout: list # Type of content section (list/text)
     content: 
       - layout: left
-        title: Bogazici University TabiLab
+        title: Data Science Intern
+        link: https://artiwise.com/
+        # link_text: boringcompany.com
+        sub_title: Artiwise
+        caption: July 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            I have started working in this company as a Data Science Intern which I analyze the language input and output of models. I am also working Aspect Based Sentiment Analysis pipelines.
+
+            My works in this include:
+
+            - Data Analysis
+            - Model Implementation
+            - Text Processing
+
+      - layout: left
+        title: Lab Assistant (Voluntary)
         link: https://tabilab.cmpe.boun.edu.tr/
         # link_text: boringcompany.com
-        sub_title: Lab Assistant (Voluntary)
+        sub_title: Bogazici University TabiLab
         caption: January 2021 - Present
         description: | # this will include new lines to allow paragraphs
             I have started working in this laboratory as linguistic annotator of tranining and test datasets for dependency parser models.
@@ -109,16 +124,15 @@ content:
             My works in this include:
 
             - Linguistic Annotation
-            - Contact with Universal Dependencies Authorities
             - Text Processing
-            - Requirements design
+            - Front-end Development
 
 
       - layout: left
-        title: Clinicwise
+        title: Junior Digital Marketing Specialist
         link: clinic-wise.com
         # link_text: boringcompany.com
-        sub_title: Junior Digital Marketing Specialist 
+        sub_title: Clinicwise
         caption: July 2020 - August 2020
         description: | # this will include new lines to allow paragraphs
             I was responsible SEO and WordPress website design
@@ -129,11 +143,26 @@ content:
     content:
 
       - layout: top-middle
+        title: Aspect Based Sentiment Analysis
+        link: github.com/karahan-sahin/
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme/
+            icon: fab fa-github
+            url: github.com/karahan-sahin/absa-study
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+            This repository includes search engine project for COVID-19 literature which utilizes algorithms like BM25, k-means clustering, vector refactoring
+
+
+      - layout: top-middle
         title: Information Retrieval Term Project
         link: github.com/karahan-sahin/
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-themeCMPE493-Term-Project
+          - title:  sproogen/modern-resume-theme
             icon: fab fa-github
             url: github.com/karahan-sahin/CMPE493-Term-Project
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
