@@ -11,7 +11,7 @@ title: Senior Linguistics Student
 email: karahan.sahin@boun.edu.tr
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 github_username:  karahan-sahin
@@ -73,6 +73,7 @@ content:
           
           Computer science courses including:
             - CMPE150 - INTRODUCTION TO COMPUTING
+            - CMPE561 - NATURAL LANGUAGE PROCESSING
             - CMPE220 - PRINCIPLES OF OOP
             - CMPE352 - FUNDAMENTALS OF SOFTWARE ENGINEERING (AUDIT)
             - CMPE462 - MACHINE LEARNING (AUDIT)
@@ -82,7 +83,7 @@ content:
             - MIS49A  - INTRODUCTION TO WEB DESIGN
 
 
-          Current GPA: <mark>3.31</mark>
+          Current GPA: <mark>3.32</mark>
 
 
 
@@ -96,11 +97,24 @@ content:
     layout: list # Type of content section (list/text)
     content: 
       - layout: left
+        title: Junior Data Scientist
+        link: https://artiwise.com/
+        # link_text: boringcompany.com
+        sub_title: Artiwise
+        caption: September 2021 - October 2021
+        description: | # this will include new lines to allow paragraphs
+            My works includes:
+
+            - Data Analysis
+            - Model Implementation
+            - Data Engineering
+
+      - layout: left
         title: Data Science Intern
         link: https://artiwise.com/
         # link_text: boringcompany.com
         sub_title: Artiwise
-        caption: July 2021 - Present
+        caption: July 2021 - September 2021
         description: | # this will include new lines to allow paragraphs
             I have started working in this company as a Data Science Intern which I analyze the language input and output of models. I am also working Aspect Based Sentiment Analysis pipelines.
 
@@ -115,7 +129,7 @@ content:
         link: https://tabilab.cmpe.boun.edu.tr/
         # link_text: boringcompany.com
         sub_title: Bogazici University TabiLab
-        caption: January 2021 - Present
+        caption: January 2021 - September 2021
         description: | # this will include new lines to allow paragraphs
             I have started working in this laboratory as linguistic annotator of tranining and test datasets for dependency parser models.
 
